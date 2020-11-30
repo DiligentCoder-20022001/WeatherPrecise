@@ -1,0 +1,218 @@
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 3.5em;
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 2em;
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  h5,
+  h6 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+
+  .navbar-brand {
+
+    font-size: 1.5rem;
+    margin-left: 3%;
+    font-weight: bold;
+  }
+
+
+  .nav-item {
+    padding: 0 20px;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-left: 14%;
+  }
+
+  .navbar {
+    padding: 0 0 0.5rem;
+  }
+
+  #title {
+    background-image: url(tenor.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    padding: 5em 2em;
+    font-size: 18px;
+  }
+
+  .btn-circle.btn-sm {
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
+  }
+
+  .btn-circle.btn-md {
+    width: 50px;
+    height: 50px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    text-align: center;
+
+  }
+
+  .center1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .center2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .center3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .center4 {
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  #education {
+    background-color: #3F51B6;
+  }
+
+  #projects {
+    background-color: #3F51B6;
+  }
+  #certification{
+    background-color: #3F51B6;
+  }
+  #footer{
+  text-align:center;
+  background-color: #3F51B6;
+  padding: 3% 15%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.open-button {
+    color: white;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 200px;
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 9;
+  }
+  .typewrite{
+    color: #fff;
+  }
+  /* Add styles to the form container */
+  .form-container {
+      width : 210px;
+    max-width: 300px;
+    padding: 5px;
+    background-color: #D5E68D;
+    border-radius : 10px;
+  }
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
