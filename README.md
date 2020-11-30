@@ -1,3 +1,3 @@
 #WeatherPrecise
 
-A basic weather reporting site with UI under construction. 
+A basic weather reporting site where you can enter the location of the place and a complete record of information about weather at that place is given to you.
