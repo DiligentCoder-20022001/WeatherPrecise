@@ -4,7 +4,12 @@
 
 A basic weather reporting site where you can enter the location of the place and a complete record of information about weather at that place is given to you. The data is given with the help of API from openweathermap.com. 
 
-##How the project looks-> 
+## How to run the project ?
+
+To run the project download the repository in a zip file and using terminal cd to the downloaded folder. After that you nedd to just run the command 
+#### node app.js
+
+## How the project looks ?
 
 1. Home page - This is where the user enters the name of the location he/she wants to check the weather of.
 
